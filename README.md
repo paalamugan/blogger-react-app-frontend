@@ -1,14 +1,7 @@
-# React.js Blogger Web Application
-Learn to build a complete production-level web app for a blogging platform like Medium, and FreeCodeCamp
-
-[![Blogger](https://img.shields.io/badge/Blogger-opensource-blue.svg)](https://blogger.com)
+# React Blogger Web Application
+Learn to build a complete production-level web app for a blogging platform like Medium, and FreeCodeCamp.
 
 ## Demo web app running this project: [**Goto Demo Website**](https://blogger-app.com)
-
-<p align="center">
-    <img src="https://raw.githubusercontent.com/paalamugan/blogger-react-app-frontend/master/.templates/github_assets/cover-react-app.png">
-</p>
-<br>
 
 ## We will learn and build the React web application for a blogging platform. 
 The main focus will be to create a super fast and production-ready application with SEO.
