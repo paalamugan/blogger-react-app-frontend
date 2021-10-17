@@ -58,7 +58,7 @@ Following are the highlights of this project:
 * Writer Blogs Management
 * Editor Blogs Management
 
-<p float="left">
+<!-- <p float="left">
   <img width="45%" src="https://raw.githubusercontent.com/paalamugan/blogger-react-app-frontend/master/.templates/github_assets/screenshots/1.png">
   <img width="45%" src="https://raw.githubusercontent.com/paalamugan/blogger-react-app-frontend/master/.templates/github_assets/screenshots/2.png">
 </p>
@@ -73,7 +73,7 @@ Following are the highlights of this project:
 <p float="left">
   <img width="45%" src="https://raw.githubusercontent.com/paalamugan/blogger-react-app-frontend/master/.templates/github_assets/screenshots/7.png">
   <img width="45%" src="https://raw.githubusercontent.com/paalamugan/blogger-react-app-frontend/master/.templates/github_assets/screenshots/8.png">
-</p>
+</p> -->
 
  ## Project Directory Structure
  ```
