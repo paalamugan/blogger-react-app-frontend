@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" prefix="og: http://ogp.me/ns#">
+
+<head>
+  <title>%SITE_TITLE%</title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="minimum-scale=1, initial-scale=1, width=device-width, shrink-to-fit=no">
+  <link rel="canonical" href="%SITE_URL%">
+  <meta name="keywords" content="Blogger, github, opensource, react, redux, ssr" />
+  <meta property="og:title" content="%SITE_TITLE%" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="%SITE_URL%" />
+  <meta property="og:image" content="%SITE_COVER_IMG_URL%" />
+  <meta property="og:description" content="%SITE_DESCRIPTION%" />
+  <meta property="twitter:title" content="%SITE_TITLE%">
+  <meta name="twitter:description" content="%SITE_DESCRIPTION%">
+  <meta name="twitter:image:src" content="%SITE_COVER_IMG_URL%">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@blogger">
+  <meta name="description" content="%SITE_DESCRIPTION%" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" />
+  <style id="jss-server-side">
+    /*SITE_CSS*/
+  </style>
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <!-- 
+    <script async src="https://www.googleta/gmanager.com/gtag/js?id=<YOUR_GOOGLE_ANALYTICS_ID>"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments);%
+        gtag('js', new Date());
+        gtag('config', '<YOUR_GOOGLE_ANALYTICS_ID>');
+    </script> 
+	-->
+
+  <!-- app loader css-->
+  <style>
+    .progress-body {
+      justify-content: center;
+      align-items: center;
+      display: flex;
+      padding: 0;
+      margin: 0;
+      z-index: 100000;
+      position: fixed;
+      top: 0;
+      width: 100%;
+    }
+
+    .progress {
+      background: rgba(0, 0, 0, 1);
+      justify-content: flex-start;
+      border-radius: 0px;
+      align-items: center;
+      position: relative;
+      padding: 0 0px;
+      display: flex;
+      height: 5px;
+      width: 100%;
+    }
+
+    .progress-value {
+      animation: appLoadingProgress 5s infinite forwards;
+      box-shadow: 0 0px 0px 0px #fff;
+      border-radius: 0px;
+      background: #ff9800;
+      height: 5px;
+      width: 0;
+    }
+
+    @keyframes appLoadingProgress {
+      0% {
+        width: 0;
+      }
+
+      100% {
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div id="appLoader" class="progress-body">
+    <div class="progress">
+      <div class="progress-value"></div>
+    </div>
+  </div>
+  <div id="root">APP_HTML</div>
+  <script type='text/javascript'>window.__PRELOADED_STATE__ = SITE_PRELOADED_STATE</script>
+  <!-- SITE_SCRIPTS -->
+</body>
+
+</html>

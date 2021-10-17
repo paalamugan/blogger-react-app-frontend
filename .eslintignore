@@ -1,0 +1,6 @@
+node_modules/
+github_assets/
+coverage/
+build/
+dist/
+public/

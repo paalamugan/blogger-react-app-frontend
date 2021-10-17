@@ -1,0 +1,29 @@
+{
+  "recommendations": [
+    "74th.Theme-NaturalContrast-With-HC",
+    "abusaidm.html-snippets",
+    "cssho.vscode-svgviewer",
+    "dbaeumer.jshint",
+    "dbaeumer.vscode-eslint",
+    "DotJoshJohnson.xml",
+    "dracula-theme.theme-dracula",
+    "dsznajder.es7-react-js-snippets",
+    "eamodio.gitlens",
+    "ecmel.vscode-html-css",
+    "esbenp.prettier-vscode",
+    "in4margaret.compareit",
+    "k--kato.intellij-idea-keybindings",
+    "lonefy.vscode-JS-CSS-HTML-formatter",
+    "mgmcdermott.vscode-language-babel",
+    "michelemelluso.code-beautifier",
+    "mikestead.dotenv",
+    "ms-azuretools.vscode-docker",
+    "ms-vscode.vscode-typescript-tslint-plugin",
+    "Orta.vscode-jest",
+    "skyran.js-jsx-snippets",
+    "VisualStudioExptTeam.vscodeintellicode",
+    "xabikos.JavaScriptSnippets",
+    "Zignd.html-css-class-completion",
+    "msjsdiag.debugger-for-chrome"
+  ]
+}
